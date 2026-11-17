@@ -1,0 +1,17 @@
+[project]
+name = "tileception-usage"
+version = "0.1.0"
+description = "Claude, Codex en OpenCode Go limieten in Tileception"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+tileception-usage = "tileception_usage:main"
+
+[tool.tileception]
+id = "usage"
+needs = ["een login bij Claude Code of Codex, of een OpenCode Go API-key"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
